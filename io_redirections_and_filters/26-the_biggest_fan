@@ -1,2 +1,2 @@
 #!/bin/bash
-head
+cat | sort | head -n 11
