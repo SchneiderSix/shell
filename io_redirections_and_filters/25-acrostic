@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1-1 | perl -e
+cut -c1-1 | perl -e '$| = 1; while (<>) { s/\n/\r/; print; } print "\n"'
