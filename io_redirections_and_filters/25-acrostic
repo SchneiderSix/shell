@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1-1 | -printf "%f\n " | tr "\n" " "
+cut -c1-1 | -printf "%f\n "
