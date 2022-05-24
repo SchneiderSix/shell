@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1-1 | echo -n
+cut -c1-1 | sort
