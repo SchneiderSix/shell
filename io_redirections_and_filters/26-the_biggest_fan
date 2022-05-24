@@ -1,2 +1,2 @@
 #!/bin/bash
-wget https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv 
+cat https://s3.amazonaws.com/alx-intranet.hbtn.io/public/nasa_19950801.tsv| column -t -s, | less -S
