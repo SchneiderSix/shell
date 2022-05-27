@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | sort -k 2
+echo {a..z}{a..z} | sort -k 2 | tr -d " "
