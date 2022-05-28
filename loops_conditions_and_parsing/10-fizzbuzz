@@ -8,15 +8,13 @@ do
 	if [ $n=$((n*15)) ]
 	then
 		echo "FizzBuzz"
-		if [ $n=$((n*3)) ]
+		elif [ $n=$((n*3)) ]
 		then
 			echo "Fizz"
-		fi
-		if [ $n=$((n*5)) ]
+		elif [ $n=$((n*5)) ]
 		then
 			echo "Buzz"
-		fi
-	else
+		else
 		echo "$n"
 	fi
 	((n++))
