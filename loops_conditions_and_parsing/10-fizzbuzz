@@ -5,7 +5,7 @@ n=1
 
 while [ $n -lt 101 ]
 do
-	if [ $n=$((n*3)) ] [ $n=$((n*5)) ]
+	if [ $n=$((n*15)) ]
 	then
 		echo "FizzBuzz"
 		if [ $n=$((n*3)) ]
