@@ -3,7 +3,6 @@
 n=0
 while [ $n -lt 11 ]
 do
-	(( n++ ))
 
 	if [ $n != 9 ]
 	then
@@ -11,4 +10,5 @@ do
 	else
 		echo "Hi"
 	fi
+	(( n++ ))
 done
