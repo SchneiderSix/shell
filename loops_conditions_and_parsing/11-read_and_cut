@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display with while
 
-cut -d " " -f 1,3,4 /etc/passwd | while read XREAD
+cut -d " " -f 1,3,4 /etc/passwd | while read -r XREAD
 do
-	echo ${XREAD}
+	echo "${XREAD}"
 done
