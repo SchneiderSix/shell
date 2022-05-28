@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #displays Best School 10 times
+
+
 n=1
 
 while [ $n -lt 11 ]
@@ -14,5 +16,5 @@ do
 	else
 		echo "Best School"
 	fi
-	(( n++ ))
+	let n+=1
 done
