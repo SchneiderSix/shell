@@ -5,13 +5,13 @@ n=1
 
 while [ $n -lt 101 ]
 do
-	if [ $n=$((n*15)) ]
+	if [ $n = $((n*15)) ]
 	then
 		echo "FizzBuzz"
-		elif [ $n=$((n*3)) ]
+		elif [ $n = $((n*3)) ]
 		then
 			echo "Fizz"
-		elif [ $n=$((n*5)) ]
+		elif [ $n = $((n*5)) ]
 		then
 			echo "Buzz"
 		else
