@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#while and if
+n=0
+while [ $n -lt 11 ]
+do
+	(( n++ ))
+
+	if [ $n != 9 ]
+	then
+		echo "Best School"
+	else
+		echo "Hi"
+	fi
+done
