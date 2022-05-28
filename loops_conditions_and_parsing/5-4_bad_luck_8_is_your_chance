@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#while if elif else
+#displays Best School 10 times
 n=1
 
 while [ $n -lt 11 ]
