@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #estatment for ls
 
-for n in */; do
+for n in *; do
 	echo "$n"
 done
