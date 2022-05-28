@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #estatment for ls
 
-for n in *; do
-	echo "$n"
+for n in *
+do
+	echo "$n" | cut -d "-" -f 2
 done
