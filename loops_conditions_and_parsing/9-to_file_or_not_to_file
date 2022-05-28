@@ -11,7 +11,7 @@ then
 	else
 		echo "school files is empty"
 	fi
-	if [ -f "$sch"]
+	if [ -f "$sch" ]
 	then
 		echo "school is a regular file"
 	fi
