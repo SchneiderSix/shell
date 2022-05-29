@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#using awk with apache log files
+
+awk "{print $1}" combined_log | awk "{print $9}" | ls
