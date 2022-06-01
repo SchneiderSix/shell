@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #loop with sigterm
 
-trap "echo I am invincible!!!" SIGINT
+trap "echo I am invincible!!!" SIGTERM
 
 x=1
 
