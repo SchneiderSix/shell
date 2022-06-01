@@ -2,7 +2,7 @@
 #rip
 echo $$ > /var/run/myscript.pid
 
-trap "rm /var/run/myscript.pid; exit" SIGQUIT
+trap "rm -fr /var/run/myscript.pid; exit" SIGQUIT
 trap "echo I hate the kill command; rm /var/run/myscript.pid; exit" SIGTERM
 trap "echo Y U no Love me?!" SIGINT
 
