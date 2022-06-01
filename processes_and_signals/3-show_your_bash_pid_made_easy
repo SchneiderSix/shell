@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #show pid with process name containing specific word
 
-pgrep bash | cut -d " " -f3
+pgrep bash | cut -d " " -f11
