@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#hmmm copy
+
+pkill -f 7-highlander
