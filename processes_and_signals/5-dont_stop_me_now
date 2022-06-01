@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #kill specific process
-killall -e 4-to_infinity_and_beyond
+kill 1483
 
