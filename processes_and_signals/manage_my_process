@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#write like madman
+
+while true
+do
+	sudo bash -c "echo "I am alive!" >> /tmp/myprocess"
+	sleep 2
+done
